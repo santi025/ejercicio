@@ -8,8 +8,8 @@
     grid-area: from;
 }
 .page .bodyContent{
-    background-color: chocolate;
-    grid-area: body;
+    background-color: rgb(16, 62, 212);
+    grid-area:auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
