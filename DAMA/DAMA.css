@@ -38,14 +38,22 @@
     color: blueviolet;
 }
 
-.page .footerContent{
+/*.page .footerContent{
     background-color: burlywood;
     grid-area: footer;
-}
+}*/
 .btn{
     width: 150px;
     height: 150px;
     border-radius: 50%;
     position: relative;
     top: 0%;
+}
+
+h1 {
+    color: #3f3434; 
+    font-size: 36px; 
+    font-family: Arial, sans-serif; 
+    text-align: left; 
+    margin-top: 0px; 
 }

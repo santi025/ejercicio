@@ -8,6 +8,13 @@ img{
         background-size: cover;
       
 }
+h1 {
+    color: #3f3434; 
+    font-size: 36px; 
+    font-family: Arial, sans-serif; 
+    text-align: left; 
+    margin-top: 0px; 
+}
 
 .secciones{
     width: 100vw;
@@ -37,3 +44,11 @@ img{
     align-items: center;
  
 }
+body {
+    background-image: url('RECURSOS/images.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
