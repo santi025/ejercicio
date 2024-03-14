@@ -29,6 +29,15 @@ h1 {
     "body menu"
     "footer menu";
 }
+.page .bodyContent{
+    background-color: rgb(228, 210, 197);
+    grid-area: body;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
 .page .headerContent{
     background-color: rgb(63, 33, 197);
