@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <h1>REGISTRO</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="primerNombre">NOMBRE COMPLETO:</label>
+            <input type="text" name="primerNombre" maxlength="50" placeholder="Ingrese su nombre completo" required>
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" min="1" max="120">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" placeholder="example@uniboyaca.edu.co">
+        </div>
+        <div>
+            <label for="archivo">Archivo:</label>
+            <input type="file" name="archivo" multiple>
+        </div>
+        <div>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha">
+        </div>
+        <div>
+            <label for="ciudad">Ciudad:</label>
+            <select name="ciudad">
+                <option value="">Seleccione una ciudad</option>
+                <option value="tunja">Tunja</option>
+                <option value="bogota">Bogotá</option>
+                <option value="sogamoso">Sogamoso</option>
+                <option value="cali">Cali</option>
+                <option value="cartagena">Cartagena</option>
+            </select>
+        </div>
+        <div>
+            <label for="estadoCivil">Estado Civil:</label><br>
+            <label><input type="radio" name="estadoCivil" value="soltero">Soltero/a</label>
+            <label><input type="radio" name="estadoCivil" value="casado">Casado/a</label>
+            <label><input type="radio" name="estadoCivil" value="viudo">Viudo/a</label>
+            <label><input type="radio" name="estadoCivil" value="ninguno" checked>Ninguno</label>
+        </div>
+        <div>
+            <button type="reset">Limpiar</button>
+            <button type="submit">Enviar</button>
+            
+        </div>
+        
+    </form>
+    <a href="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\proyecto.html" target="_self"><button>Ir a la página principal</button></a>
+</body>
+</html>
