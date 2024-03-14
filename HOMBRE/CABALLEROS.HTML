@@ -13,74 +13,717 @@
 
     <section class="page">
         <form action="#" method="post" class="formsearch">
-            <div>
                 <label>PRODUCTO:</label>
                 <input type="text" name="producto" placeholder="ingrece el producto que deseas">
-            </div>
-            <div>
+            <br>
+            <br>
                 <label> ordenar por</label>
                 <select name="ordenarpor">
                     <option>promocion</option>.
                     <option>mayor a menor precio</option>
                     <option>menor a mayor precio </option>
                 </select>
-            </div>
-            <div>
-                <button>
-                    buscar
-                </button>
-            </div>
+            <br>
+            <br>
+            <button> buscar </button>
+
             <h2 class="tituloArticulo"> lista de productos</h2>
         </form>
-        
         <section class="bodyContent">
 
         <article class="producto">
-            <h3 class="titulo"> zapatos guchi bebe</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\descargar (21).jpeg"
+            <h3 class="titulo"> CAMISA ELEGANTE</h3>
+            <img class="imagen"  src="CABALLEROS/camisa elegante.jpeg"
                 alt="articulo ejemplo">
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
             <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
         <article class="producto">
-            <h3 class="titulo"> pantalon sary</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\images (10).jpeg"
+            <h3 class="titulo"> CHAQUETA </h3>
+            <img class="imagen"  src="CABALLEROS/chaqueta.jpeg"
                 alt="articulo ejemplo">
-            
-            <p class=" precio">precio:$200.000</p>
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
         <article class="producto">
-            <h3 class="titulo">anrticulo 1</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\descargar (20).jpeg"
+            <h3 class="titulo"> TENIS </h3>
+            <img class="imagen"  src="CABALLEROS/tenis.jpeg"
                 alt="articulo ejemplo">
-            <p class="descripcion">esto es la descripcion del a rituculo </p>
-            <p class=" precio">precio:1.200.000</p>
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
         <article class="producto">
-            <h3 class="titulo">anrticulo 1</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\images (11).jpeg"
+            <h3 class="titulo"> ZAPATOS DE VESTIR </h3>
+            <img class="imagen"  src="CABALLEROS/zapatos de vestir.jpeg"
                 alt="articulo ejemplo">
-            <p class="descripcion">esto es la descripcion del a rituculo </p>
-            <p class=" precio">precio:1.200.000</p>
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
         <article class="producto">
-            <h3 class="titulo">anrticulo 1</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\images (9).jpeg"
+            <h3 class="titulo"> PANTALON ELEGANTE </h3>
+            <img class="imagen"  src="CABALLEROS/pantalon elegante.jpeg"
                 alt="articulo ejemplo">
-            <p class="descripcion">esto es la descripcion del a rituculo </p>
-            <p class=" precio">precio:1.200.000</p>
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
         <article class="producto">
-            <h3 class="titulo">anrticulo 1</h3>
-            <img class="imagen"   src="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\RECURSOS\NIÑOS\images (13).jpeg"
+            <h3 class="titulo"> PANTALON DEPORTIVO </h3>
+            <img class="imagen"  src="CABALLEROS/pantalon deportivo.jpeg"
                 alt="articulo ejemplo">
-            <p class="descripcion">esto es la descripcion del a rituculo </p>
-            <p class=" precio">precio:1.200.000</p>
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
         </article>
+
+        <article class="producto">
+            <h3 class="titulo"> BERMUDA </h3>
+            <img class="imagen"  src="CABALLEROS/images.jpeg"
+                alt="articulo ejemplo">
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
+        </article>
+
+        <article class="producto">
+            <h3 class="titulo"> BUZO</h3>
+            <img class="imagen"  src="CABALLEROS/descarga.jpeg"
+                alt="articulo ejemplo">
+            <br>
+            <br>
+            <label>DESCRIPCION DEL PRODUCTO:</label>
+            <br>
+            <label> COMODOS Y BONITOS</label>
+            <br>
+            <br>
+            <label> Color</label>
+            <input type="color" name="Color"/>
+            <p class=" precio">precio: $ 250.200</p>
+            <br>
+            <br>
+            <label> CANTIDAD </label>
+            <br>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto " value="a">
+                1 PRODUCTO
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto2" value="b">
+                2 PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto3" value="c">
+                3 O MÁS PRODUCTOS
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="cantidad producto4" value="d" checked>
+                Ninguno
+            </label>
+            <br>
+            <br>
+            <label> TALLAS </label>
+            <br>
+            <br>
+            <label>
+                <input type="checkbox"  name="deportes">
+                PEQUEÑA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="VideoJuegos">
+                MEDIANA
+            </label>
+            <br>
+            <label>
+                <input type="checkbox"  name="Lectura" checked>
+                GRANDE
+            </label>
+        <br>
+        <br>
+            <label > ALGUNA JUSTIFICACION PARA EL PRODUCTO:</label>
+            <textarea name="Justifique" rows="10" cols="25"placeholder="ingrecela aquí"></textarea>
+        <br>
+        <br>
+            <label>PARA EL ENVIO: </label>
+            <br>
+            <br>
+                <label > Fecha</label>
+            <br>
+                <input type="date" name="Fecha"/>
+            <br>
+            <br>
+                <label> Ciudad</label>
+            <br>
+                <select name="Ciudad">
+                    <option  value="">Seleccione una ciudad</option>
+                    <option value="1">tunja</option>
+                    <option value="2">Bogota</option>
+                    <option value="3">Sogamoso</option>
+                    <option value="4">cali</option>
+                    <option value="5">Cartagena</option>
+                </select>
+            <br>
+            <br>
+            <button type="submit">COMPRAR </button>
+        </article>
+
     </section>
     <footer class="footerContent">
         <p>fin de la pagina</p>
     </footer>
-    <a href="c:\Users\USUARIO\Desktop\PROGRAMACION AVASADA\TRABAJO\proyecto.html" target="_self"><button>Ir a la página</button></a>
+    <a href=" " target="_self"><button>Ir a la página</button></a>
 
     </section>
 </body>
