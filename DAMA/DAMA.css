@@ -7,7 +7,7 @@
     grid-area: from;
 }
 .page .bodyContent{
-    background-color: chocolate;
+    background-color: rgb(228, 210, 197);
     grid-area: body;
     display: flex;
     flex-direction: row;
